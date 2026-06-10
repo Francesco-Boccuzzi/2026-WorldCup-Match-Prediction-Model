@@ -7,6 +7,7 @@ class Team:
     confederation: str
     fifa_rank: int
     is_host: bool
+    group: str = None  # Optional, can be set later based on JSON structure
 
 def load_teams(file_path):
     """Reads the JSON file and returns a list of Team objects."""
@@ -21,7 +22,8 @@ def load_teams(file_path):
                 name=member['name'],
                 confederation=member['confederation'],
                 fifa_rank=member['fifa_rank'],
-                is_host=member['host']
+                is_host=member['host'],
+                group=group_id  # Assign group based on JSON structure
             )
             teams.append(team)
     return teams
