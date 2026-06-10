@@ -63,33 +63,46 @@ class Tournament:
     def advance_to_knockout(self):
         """
         Selects 32 teams for the knockout stage:
-        - Top 2 from each of the 12 groups (24 teams)
-        - 8 best 3rd-place teams from the 12 groups
+        Returns a list of dicts: [{'team_obj': Team, 'name': str, 'gid': str, 'rank': int}]
         """
         knockout_teams = []
         third_place_teams = []
+        
+        # Helper to grab the actual Team object by matching the name
+        def get_team(name):
+            return next(t for t in self.teams if t.name == name)
 
         # 1. Get Top 2 and store 3rd place for ranking
         for gid, results in self.standings.items():
-            # Sort by pts, then gd
             sorted_teams = sorted(results.items(), key=lambda x: (x[1]["pts"], x[1]["gd"]), reverse=True)
             
-            # Add top 2 directly
-            knockout_teams.extend([sorted_teams[0][0], sorted_teams[1][0]])
+            team1_name = sorted_teams[0][0]
+            team2_name = sorted_teams[1][0]
+            team3_name = sorted_teams[2][0]
             
-            # Store 3rd place team with their metadata for comparison
+            # Add top 2 directly AS DICTIONARIES with the Team object included
+            knockout_teams.append({"team_obj": get_team(team1_name), "name": team1_name, "gid": gid, "rank": 1})
+            knockout_teams.append({"team_obj": get_team(team2_name), "name": team2_name, "gid": gid, "rank": 2})
+            
+            # Store 3rd place team with their metadata
             third_place_teams.append({
-                "name": sorted_teams[2][0],
+                "team_obj": get_team(team3_name),
+                "name": team3_name,
+                "gid": gid,
                 "pts": sorted_teams[2][1]["pts"],
                 "gd": sorted_teams[2][1]["gd"]
             })
 
         # 2. Rank 3rd-place teams to find the best 8
-        # Sorting criteria: Points, then Goal Difference
         best_third_placed = sorted(third_place_teams, key=lambda x: (x["pts"], x["gd"]), reverse=True)
         
         # 3. Add the top 8 third-place finishers
         for i in range(8):
-            knockout_teams.append(best_third_placed[i]["name"])
+            knockout_teams.append({
+                "team_obj": best_third_placed[i]["team_obj"],
+                "name": best_third_placed[i]["name"],
+                "gid": best_third_placed[i]["gid"],
+                "rank": 3
+            })
 
         return knockout_teams

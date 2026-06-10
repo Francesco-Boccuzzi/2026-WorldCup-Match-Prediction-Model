@@ -16,7 +16,7 @@ class Bracket:
         # Create a quick lookup dictionary for 1st and 2nd place teams.
         # This turns [{'name': 'Brazil', 'gid': 'C', 'rank': 1}] into {'1C': 'Brazil'}
         self.team_lookup = {
-            f"{t['rank']}{t['gid']}": t['name'] 
+            f"{t['rank']}{t['gid']}": t['team_obj'] 
             for t in self.teams if t['rank'] in [1, 2]
         }
         
@@ -36,9 +36,10 @@ class Bracket:
         third_pairings = self.pairing_matrix.get(combo_key, {})
 
         def get_third(gid):
-            """Helper to find the name of the 3rd place team from a specific group."""
+            """Helper to find the Team object of the 3rd place team from a specific group."""
             if not gid: return None
-            return next(t['name'] for t in self.thirds if t['gid'] == gid)
+            # CHANGED: Returning t['team_obj'] instead of t['name']
+            return next(t['team_obj'] for t in self.thirds if t['gid'] == gid)
 
         # 3. Map the matches according to the FIFA schedule
         self.matches[73] = {"team_a": self.team_lookup["2A"], "team_b": self.team_lookup["2B"]}
