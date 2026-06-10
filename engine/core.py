@@ -28,7 +28,3 @@ def load_teams(file_path):
             teams.append(team)
     return teams
 
-# Example usage:
-# teams = load_teams('2026-WorldCup-Match-Prediction-Model/data/wc_2026_teams.json')
-# for team in teams:
-#     print(f"{team.name} (Rank: {team.fifa_rank})")
