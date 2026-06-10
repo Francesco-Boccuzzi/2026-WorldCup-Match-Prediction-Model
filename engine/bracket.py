@@ -74,3 +74,22 @@ class Bracket:
             winners.append(winner)
             
         return winners
+    
+    def create_next_round_matches(self, advancing_teams):
+        """
+        Sets up matches for the next round based on the advancing teams.
+        Pairs teams according to bracket structure (1 vs 2, 3 vs 4, etc.).
+        """
+        # Clear previous matches
+        self.matches = {}
+        
+        # Pair advancing teams: 1st with 2nd, 3rd with 4th, etc.
+        match_id = 89  # Start after Round of 32 (matches 73-88)
+        
+        for i in range(0, len(advancing_teams), 2):
+            if i + 1 < len(advancing_teams):
+                self.matches[match_id] = {
+                    "team_a": advancing_teams[i],
+                    "team_b": advancing_teams[i + 1]
+                }
+                match_id += 1
