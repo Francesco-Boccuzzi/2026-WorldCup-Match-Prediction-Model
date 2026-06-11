@@ -1,14 +1,16 @@
 from engine.core import load_teams
 from engine.match import calculate_expected_goals, get_match_probabilities
 import numpy as np
+from engine.logger import MatchLogger
 
 class Tournament:
-    def __init__(self, json_path):
+    def __init__(self, json_path, logger=None):
         self.teams = load_teams(json_path)
         # Groups: Dictionary mapping group_id (A-L) to a list of Team objects
         self.groups = self._organize_groups()
         # Standings: Nested dict {group_id: {team_name: {"points": 0, "gd": 0}}}
         self.standings = self._initialize_standings()
+        self.logger = logger
 
     def _organize_groups(self):
         # Assumes your JSON has groups A-L
@@ -38,6 +40,10 @@ class Tournament:
         flat_probs = probs.flatten()
         sampled_index = np.random.choice(np.arange(len(flat_probs)), p=flat_probs/flat_probs.sum())
         sa, sb = np.unravel_index(sampled_index, probs.shape)
+
+        # LOGGING ACTION
+        if self.logger:
+            self.logger.log_match(gid, team_a.name, team_b.name, sa, sb)
         
         # Update points and goal difference
         self.standings[gid][team_a.name]["gd"] += (sa - sb)

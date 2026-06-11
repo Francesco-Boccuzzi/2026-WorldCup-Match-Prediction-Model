@@ -3,6 +3,7 @@ import multiprocessing
 from collections import Counter
 from engine.sim import Tournament
 from engine.bracket import Bracket
+from engine.logger import MatchLogger
 
 # Define file paths
 TEAMS_JSON_PATH = 'data/wc_2026_teams.json'
@@ -12,6 +13,11 @@ def run_single_tournament(run_id):
     """
     Executes a single instance of the entire 2026 World Cup simulation.
     """
+    logger = MatchLogger() if run_id == 0 else None
+
+    tournament = Tournament(TEAMS_JSON_PATH, logger=logger)
+    tournament.play_group_stage()
+
     # 1. Group Stage
     tournament = Tournament(TEAMS_JSON_PATH)
     tournament.play_group_stage()
