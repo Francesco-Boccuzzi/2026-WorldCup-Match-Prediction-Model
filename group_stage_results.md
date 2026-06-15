@@ -35,7 +35,7 @@
 | F | Netherlands | Tunisia | 0 - 0 |
 | F | Japan | Sweden | 1 - 0 |
 | F | Japan | Tunisia | 2 - 1 |
-| F | Sweden | Tunisia | 0 - 1 |
+| F | Sweden | Tunisia | 0 - 1 | 5 - 1 |
 | G | Belgium | Egypt | 0 - 0 |
 | G | Belgium | Iran | 2 - 0 |
 | G | Belgium | New Zealand | 1 - 1 |
