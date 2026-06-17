@@ -60,7 +60,7 @@
 | J | Algeria | Austria | 0 - 0 |
 | J | Algeria | Jordan | 3 - 1 |
 | J | Austria | Jordan | 1 - 3 | 3 - 1 |
-| K | Portugal | DR Congo | 1 - 1 |
+| K | Portugal | DR Congo | 1 - 1 | 1 - 1 |
 | K | Portugal | Uzbekistan | 5 - 0 |
 | K | Portugal | Colombia | 2 - 1 |
 | K | DR Congo | Uzbekistan | 0 - 1 |
