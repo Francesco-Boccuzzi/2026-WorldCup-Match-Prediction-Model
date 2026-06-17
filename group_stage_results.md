@@ -36,30 +36,30 @@
 | F | Japan | Sweden | 1 - 0 |
 | F | Japan | Tunisia | 2 - 1 |
 | F | Sweden | Tunisia | 0 - 1 | 5 - 1 |
-| G | Belgium | Egypt | 0 - 0 |
+| G | Belgium | Egypt | 0 - 0 | 1 - 1 |
 | G | Belgium | Iran | 2 - 0 |
 | G | Belgium | New Zealand | 1 - 1 |
 | G | Egypt | Iran | 2 - 2 |
 | G | Egypt | New Zealand | 1 - 1 |
-| G | Iran | New Zealand | 1 - 2 |
+| G | Iran | New Zealand | 1 - 2 | 2 - 2 |
 | H | Spain | Cape Verde | 1 - 0 | 0 - 0 |
 | H | Spain | Saudi Arabia | 1 - 0 |
 | H | Spain | Uruguay | 1 - 0 |
 | H | Cape Verde | Saudi Arabia | 0 - 0 |
 | H | Cape Verde | Uruguay | 0 - 4 |
-| H | Saudi Arabia | Uruguay | 0 - 1 |
-| I | France | Senegal | 1 - 0 |
+| H | Saudi Arabia | Uruguay | 0 - 1 | 1 - 1 |
+| I | France | Senegal | 1 - 0 | 3 - 1 |
 | I | France | Iraq | 1 - 0 |
 | I | France | Norway | 0 - 0 |
 | I | Senegal | Iraq | 1 - 0 |
 | I | Senegal | Norway | 4 - 2 |
-| I | Iraq | Norway | 0 - 3 |
-| J | Argentina | Algeria | 2 - 0 |
+| I | Iraq | Norway | 0 - 3 | 1 - 4 |
+| J | Argentina | Algeria | 2 - 0 | 3 - 0 |
 | J | Argentina | Austria | 3 - 0 |
 | J | Argentina | Jordan | 3 - 0 |
 | J | Algeria | Austria | 0 - 0 |
 | J | Algeria | Jordan | 3 - 1 |
-| J | Austria | Jordan | 1 - 3 |
+| J | Austria | Jordan | 1 - 3 | 3 - 1 |
 | K | Portugal | DR Congo | 1 - 1 |
 | K | Portugal | Uzbekistan | 5 - 0 |
 | K | Portugal | Colombia | 2 - 1 |
