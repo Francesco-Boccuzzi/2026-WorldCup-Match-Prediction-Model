@@ -1,16 +1,16 @@
 | Group | Home Team | Away Team | Prediction | Score |
 |-------|-----------|-----------|-------|-------|
 | A | Mexico | South Africa | 1 - 0 | 2 - 0 | 
-| A | Mexico | South Korea | 1 - 0 |
+| A | Mexico | South Korea | 1 - 0 | 1 - 0 |
 | A | Mexico | Czech Republic | 1 - 1 |
 | A | South Africa | South Korea | 0 - 1 |
-| A | South Africa | Czech Republic | 1 - 2 |
+| A | South Africa | Czech Republic | 1 - 2 | 1 - 1 |
 | A | South Korea | Czech Republic | 0 - 1 | 2 - 1 |
 | B | Canada | Bosnia and Herzegovina | 1 - 0 | 1 - 1 |
-| B | Canada | Qatar | 0 - 0 |
+| B | Canada | Qatar | 0 - 0 | 6 - 0 |
 | B | Canada | Switzerland | 1 - 1 |
 | B | Bosnia and Herzegovina | Qatar | 0 - 0 |
-| B | Bosnia and Herzegovina | Switzerland | 0 - 1 |
+| B | Bosnia and Herzegovina | Switzerland | 0 - 1 | 1 - 4 |
 | B | Qatar | Switzerland | 0 - 2 | 1 - 1 |
 | C | Brazil | Morocco | 0 - 0 | 1 - 1 |
 | C | Brazil | Haiti | 0 - 0 |
