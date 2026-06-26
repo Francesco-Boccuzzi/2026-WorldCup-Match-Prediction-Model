@@ -2,38 +2,38 @@
 |-------|-----------|-----------|-------|-------|
 | A | Mexico | South Africa | 1 - 0 | 2 - 0 | 
 | A | Mexico | South Korea | 1 - 0 | 1 - 0 |
-| A | Mexico | Czech Republic | 1 - 1 |
-| A | South Africa | South Korea | 0 - 1 |
+| A | Mexico | Czech Republic | 1 - 1 | 3 - 0 |
+| A | South Africa | South Korea | 0 - 1 | 1 - 0 |
 | A | South Africa | Czech Republic | 1 - 2 | 1 - 1 |
 | A | South Korea | Czech Republic | 0 - 1 | 2 - 1 |
 | B | Canada | Bosnia and Herzegovina | 1 - 0 | 1 - 1 |
-| B | Canada | Qatar | 0 - 0 | 6 - 0 |
-| B | Canada | Switzerland | 1 - 1 |
-| B | Bosnia and Herzegovina | Qatar | 0 - 0 |
+| B | Canada | Qatar | 0 - 0 | 6 - 0 | 
+| B | Canada | Switzerland | 1 - 1 | 1 - 2 |
+| B | Bosnia and Herzegovina | Qatar | 0 - 0 | 3 - 1 |
 | B | Bosnia and Herzegovina | Switzerland | 0 - 1 | 1 - 4 |
 | B | Qatar | Switzerland | 0 - 2 | 1 - 1 |
 | C | Brazil | Morocco | 0 - 0 | 1 - 1 |
 | C | Brazil | Haiti | 0 - 0 | 3 - 0 |
-| C | Brazil | Scotland | 2 - 0 |
-| C | Morocco | Haiti | 3 - 1 |
+| C | Brazil | Scotland | 2 - 0 | 3 - 0 |
+| C | Morocco | Haiti | 3 - 1 | 4 - 2 |
 | C | Morocco | Scotland | 1 - 0 | 1 - 0 |
 | C | Haiti | Scotland | 0 - 1 | 0 - 1 | 
 | D | USA | Paraguay | 0 - 0 | 4 - 1 |
 | D | USA | Australia | 1 - 1 | 2 - 0 |
-| D | USA | Turkey | 4 - 1 |
-| D | Paraguay | Australia | 2 - 0 |
+| D | USA | Turkey | 4 - 1 | 2 - 3 |
+| D | Paraguay | Australia | 2 - 0 | 0 - 0 |
 | D | Paraguay | Turkey | 1 - 2 | 1 - 0 |
 | D | Australia | Turkey | 1 - 3 | 2 - 0 |
 | E | Germany | Curaçao | 1 - 0 | 7 - 1 |
 | E | Germany | Ivory Coast | 2 - 1 | 2 - 1 |
-| E | Germany | Ecuador | 1 - 1 |
-| E | Curaçao | Ivory Coast | 0 - 2 |
+| E | Germany | Ecuador | 1 - 1 | 1 - 2 | 
+| E | Curaçao | Ivory Coast | 0 - 2 | 0 - 2 |
 | E | Curaçao | Ecuador | 0 - 0 | 0 - 0 |
 | E | Ivory Coast | Ecuador | 3 - 2 | 1 - 0 |
 | F | Netherlands | Japan | 2 - 1 | 2 - 2 |
 | F | Netherlands | Sweden | 0 - 0 | 5 - 1 |
-| F | Netherlands | Tunisia | 0 - 0 |
-| F | Japan | Sweden | 1 - 0 |
+| F | Netherlands | Tunisia | 0 - 0 | 3 - 1 |
+| F | Japan | Sweden | 1 - 0 | 1 - 1 | 
 | F | Japan | Tunisia | 2 - 1 | 4 - 0 |
 | F | Sweden | Tunisia | 0 - 1 | 5 - 1 |
 | G | Belgium | Egypt | 0 - 0 | 1 - 1 |
