@@ -39,36 +39,36 @@
 | G | Belgium | Egypt | 0 - 0 | 1 - 1 |
 | G | Belgium | Iran | 2 - 0 | 0 - 0 |
 | G | Belgium | New Zealand | 1 - 1 |
-| G | Egypt | Iran | 2 - 2 |
+| G | Egypt | Iran | 2 - 2 | 1 - 1 |
 | G | Egypt | New Zealand | 1 - 1 | 3 - 1 |
 | G | Iran | New Zealand | 1 - 2 | 2 - 2 |
 | H | Spain | Cape Verde | 1 - 0 | 0 - 0 |
 | H | Spain | Saudi Arabia | 1 - 0 | 4 - 0 |
-| H | Spain | Uruguay | 1 - 0 |
-| H | Cape Verde | Saudi Arabia | 0 - 0 |
+| H | Spain | Uruguay | 1 - 0 | 1 - 0 |
+| H | Cape Verde | Saudi Arabia | 0 - 0 | 0 - 0 |
 | H | Cape Verde | Uruguay | 0 - 4 | 2 - 2 |
 | H | Saudi Arabia | Uruguay | 0 - 1 | 1 - 1 |
 | I | France | Senegal | 1 - 0 | 3 - 1 |
-| I | France | Iraq | 1 - 0 |
-| I | France | Norway | 0 - 0 |
-| I | Senegal | Iraq | 1 - 0 |
-| I | Senegal | Norway | 4 - 2 |
+| I | France | Iraq | 1 - 0 | 3 - 0 |
+| I | France | Norway | 0 - 0 | 4 - 1 |
+| I | Senegal | Iraq | 1 - 0 | 5 - 0 |
+| I | Senegal | Norway | 4 - 2 | 2 - 3 |
 | I | Iraq | Norway | 0 - 3 | 1 - 4 |
 | J | Argentina | Algeria | 2 - 0 | 3 - 0 |
-| J | Argentina | Austria | 3 - 0 |
-| J | Argentina | Jordan | 3 - 0 |
-| J | Algeria | Austria | 0 - 0 |
-| J | Algeria | Jordan | 3 - 1 |
+| J | Argentina | Austria | 3 - 0 | 2 - 0 |
+| J | Argentina | Jordan | 3 - 0 | 3 - 1 |
+| J | Algeria | Austria | 0 - 0 | 3 - 3 |
+| J | Algeria | Jordan | 3 - 1 | 2 - 1 |
 | J | Austria | Jordan | 1 - 3 | 3 - 1 |
 | K | Portugal | DR Congo | 1 - 1 | 1 - 1 |
-| K | Portugal | Uzbekistan | 5 - 0 |
-| K | Portugal | Colombia | 2 - 1 |
-| K | DR Congo | Uzbekistan | 0 - 1 |
-| K | DR Congo | Colombia | 0 - 3 |
-| K | Uzbekistan | Colombia | 0 - 2 |
-| L | England | Croatia | 2 - 1 |
-| L | England | Ghana | 0 - 1 |
-| L | England | Panama | 4 - 0 |
-| L | Croatia | Ghana | 0 - 1 |
-| L | Croatia | Panama | 1 - 0 |
-| L | Ghana | Panama | 2 - 0 |
+| K | Portugal | Uzbekistan | 5 - 0 | 5 - 0 |
+| K | Portugal | Colombia | 2 - 1 | 0 - 0 |
+| K | DR Congo | Uzbekistan | 0 - 1 | 3 - 1 |
+| K | DR Congo | Colombia | 0 - 3 | 0 - 1 |
+| K | Uzbekistan | Colombia | 0 - 2 | 1 - 3 |
+| L | England | Croatia | 2 - 1 | 4 - 2 |
+| L | England | Ghana | 0 - 1 | 0 - 0 |
+| L | England | Panama | 4 - 0 | 2 - 0 | 
+| L | Croatia | Ghana | 0 - 1 | 2 - 1 |
+| L | Croatia | Panama | 1 - 0 | 1 - 0 |
+| L | Ghana | Panama | 2 - 0 | 1 - 0 |
