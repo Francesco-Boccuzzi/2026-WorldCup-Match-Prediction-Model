@@ -38,7 +38,7 @@
 | F | Sweden | Tunisia | 0 - 1 | 5 - 1 |
 | G | Belgium | Egypt | 0 - 0 | 1 - 1 |
 | G | Belgium | Iran | 2 - 0 | 0 - 0 |
-| G | Belgium | New Zealand | 1 - 1 |
+| G | Belgium | New Zealand | 1 - 1 | 5 - 1 |
 | G | Egypt | Iran | 2 - 2 | 1 - 1 |
 | G | Egypt | New Zealand | 1 - 1 | 3 - 1 |
 | G | Iran | New Zealand | 1 - 2 | 2 - 2 |
